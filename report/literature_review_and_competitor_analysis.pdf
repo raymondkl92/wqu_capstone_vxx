@@ -1,0 +1,147 @@
+
+
+Problem Statement
+
+Hedging equities is a crucial method for safeguarding assets or portfolios, involving the acquisition of specific equity, such as stocks or bonds, followed by the implementation of a hedge to counterbalance market risks and potential losses. Various forms of investments, including equities, are inherently associated with volatility, reflecting the level of risk and causing abrupt fluctuations in their value. Hedging emerges as a significant measure to protect these equities, even amid sudden market shifts, achieved through derivatives such as futures and options.
+
+Effectively hedging equities, such as the S&P 500, can be optimally executed using a volatility index, known as the VIX. This index represents the annualized implied volatility of a hypothetical S&P 500 stock option with a 30-day expiration. The VIX's price is determined by the prices of near-term S&P 500 options traded on the Chicago Board Options Exchange (CBOE). It provides investors with valuable insights into estimating the potential fluctuations of the S&P 500 Index in the next 30 days.
+ 
+The primary mechanism through which the VIX hedges the S&P 500 lies in their significant negative correlation when the VIX price rises, the S&P 500 price tends to decrease, and vice versa, showcasing an inverse relationship. Despite the prominent role of the VIX in hedging S&P 500 equities, it harbors limitations and major challenges, including:
+ 
+•       	Non-direct Investability: The VIX cannot be directly invested in, posing a significant challenge.
+ 
+•       	Dependency on Implied Volatility: The VIX relies on the implied volatility of S&P 500 options, not always reflecting actual market volatility.
+ 
+•       	External Influences: External factors outside the stock market can impact the VIX.
+
+Recognizing these limitations, and addressing the challenge of non-direct investability, the VXX comes into play. The VXX, an Exchange-Traded Fund (ETF), is designed to track the value of future contracts in the CBOE volatility index. It offers investors a means to access equity market volatility while maintaining a negative correlation with S&P 500 equities. It is crucial to note that while VXX does not represent a direct spot investment in the VIX, being linked to an index composed of VIX futures, its performance may significantly differ from a hypothetical investment in the VIX, which is not practically feasible to establish.
+
+Literature Review
+
+Volatility is a frequently used term in discussions about risk within financial markets. Stocks with high volatility are typically perceived as more risky, with instances of elevated volatility commonly observed before and during financial crises. Furthermore, this risk metric has held significant importance for policymakers over the years, including institutions such as the Federal Reserve and the Bank of England (Nasar, 1991).
+ 
+Volatility is generally characterized as the standard deviation of asset pricing data (Demeterfi et al., 1999). Consequently, it gauges the extent of deviations from the mean price of an asset, be it a stock or an index. It has also become one of the paramount and most successful areas of research in econometrics such as time series and other economic forecasting models in recent decades. With regards to its widespread reap financial reward, it tends to play a significant purpose in theoretical and empirical financial analysis. It has been noticed by (Andersen et al, 2010) that volatility measurement and modeling are additional influential and intensively developing areas of modern portfolio analysis and derivative pricing.
+ 
+Financial crises flatter to be an area of study on other financial attributes, as in the 1987 financial crises which (Brenner and Galai, 1987) noticed its attributes based on their study to have significant volatility changes over the entire US stock indices. They put forward for the first time the idea of a volatility index, which can serve as an assembled match for the market forward-looking volatility measure and other derivatives as a major instrument to hedge averse to volatility risk.
+ 
+Some years after these financial crises, the Chicago Board of Option Exchange (CBOE) in September 1993 instituted the earliest volatility index (VIX), which was obtained from the Black-Scholes (Black and Scholes, 1973) implied volatilities gotten from S&P 100 index pricing obtained by (Whaley, 2009). It was later changed in September 2008 where VIX follows implied volatilities from S&P 500 index options (Whaley, 2009). This approach then became the major reference in advancing volatility indexes in the US and European stocks.
+ 
+The CBOE volatility index, known as the 'VIX,' gauges the implied volatility of the S&P 500 Index (SPX); it serves to be the primary indicator for U.S. equities. It instantly reflects the market's anticipation of volatility in the next 30 days. VIX tools, like Exchange Traded Funds, have seen significant advancements in VIX derivative markets in recent decades. The VIX is commonly called the market's "fear index" or "fear gauge." It moves oppositely to the S&P 500; when the VIX price increases, the S&P 500 typically decreases. A rising VIX suggests a growing demand for options, making them pricier. Conversely, a falling VIX indicates reduced demand, causing option prices to drop.
+ 
+The proof indicates that the VIX derivative market is a vital part of the stock market structure (Shu and Zhang, 2012). The well-established negative link between the S&P 500 and VIX indexes (Whaley, 2009), known as the 'leverage effect,' makes VIX derivatives valuable for hedging against volatility, especially in market declines. (Daigler and Rossi, 2006) suggest the potential advantages of incorporating VIX options and futures into S&P 500 portfolio diversification.
+ 
+VIX derivative pricing has two main methods. The first is the simplified approach, which considers the current VIX level adequate for its derivatives. It models VIX dynamics directly without using information from the equity market. The second method is the structural approach, where VIX derivative pricing is based on the dynamics of the stock market, represented by the S&P 500 index. The spot VIX is derived from market index dynamics and serves as the basis for VIX derivatives. (Deng et al., 2012) explained that the VIX estimates future stock market volatility, calculated by the Chicago Board Options Exchange (CBOE) using S&P 500 Index put and call option prices. Additionally, VIX changes are inversely correlated with S&P 500 changes. (Alexander & Korovilas, n.d.) highlights how VIX engages in short and long-term positions, involving short positions on short-term VIX futures and long positions on longer-term VIX futures. This approach offers unique risk and return characteristics appealing to long-term investors, providing excellent diversification opportunities for stocks, bonds, and/or commodities. These portfolios, often termed 'roll-yield arbitrage' ETN portfolios, involve trading on differential roll costs along the VIX futures term structure. They are not without risk, aiming to capitalize on varying points in the VIX futures market. The portfolios include ETNs, allocating between direct and inverse VIX futures tracker ETNs, and ETN3 portfolios, allocating between static and dynamic ETNs.
+Additionally, ETN providers can effectively hedge their exposure to early ETN redemption by trading VIX futures at the daily closing price, as this determines the redemption value. Despite service fees, issuers can ensure substantial profits, net of hedging costs, by issuing a controlled portfolio of ETNs. However, recent extensive front-running activity, particularly near the market close on prompt and second-to-mature VIX futures, has impacted the two largest ETNs, VXX and TVIX. Consequently, Credit Suisse halted TVIX issuance due to its traded price soaring to a 90% premium over indicative value, driven by speculative demand. It was reopened under the condition that hedging risk would be assumed by market makers guaranteeing VIX futures closing prices to Credit Suisse (Alexander & Korovilas, n.d.).
+
+Luo (2011) emphasized the significance of the VIX index, noting its influence on various new products introduced over the last decade. In 2004, the CBOE Futures Exchange (CFE) launched VIX futures trading, followed by the listing of VIX options contracts in 2006. In 2009, S&P Indices introduced the S&P 500 VIX Futures Index Series, serving as the foundation for over two dozen ETNs and ETFs, collectively linked to over US$2 billion in assets (Liu and Dash, 2011). These instruments have transformed the VIX from a market indicator to a hedging tool.
+Various authors have explored the hedging benefits of VIX-related products. Dash and Moran (2005) delved into the diversification advantages that VIX could provide to a hedge fund portfolio. Black (2006) demonstrated the risk-reduction benefits of incorporating VIX futures into an equity portfolio. Recent studies by Liu and Dash (2010), DeLisle, Doran, and Krieger (2010), Stanton (2011), and Jones (2011) further investigated the hedging advantages of VIX assets (Luo, 2011).
+ 
+Regarding the advantages of hedging equities with VIX derivatives, researchers have identified some issues. Deng et al. (2012) highlighted a limitation: the VIX itself cannot be directly invested in because it's an index value. Investors can only gain exposure to the VIX through futures and options contracts, where payoffs depend on future VIX values. VIX futures-based ETPs offer a convenient way to access the VIX futures market in an exchange-traded form.
+He explores the downside of negative roll yields, which happen when an investment manager buys a futures contract and sells it later as it nears expiration. This manager then buys another futures contract with the same initial maturity. Because longer-dated VIX futures are usually pricier than shorter-dated ones, the average "roll yield" is negative. This could result in consistent underperformance of ETPs following VIX future indices compared to the VIX itself (Deng et al., 2012).
+They investigate if ETPs following VIX futures indices effectively protect stock portfolios. Optimal hedge ratios are calculated through regression analysis, and hedged portfolios are constructed following Figlewski (1985). The study specifically assesses the ability of ETPs tracking short-term VIX futures indices to hedge stock and bond portfolios. Findings indicate that, in general, VIX futures ETPs are not highly effective hedges for stocks (Deng et al., 2012).
+Additionally, (Bahaji & Aberkane, n.d.) discovered that VIX futures outperform hedge funds and commodities. Nevertheless, our findings indicate that investing in VIX futures may result in lower-than-expected utility, leading to disappointment for investors with preferences for higher-order moments.
+In our study, we'll explore the significance and advantages of VXX ETFs compared to the VIX index, given their ability to swiftly navigate and secure long-term positions (Bahaji & Aberkane, n.d.). Since 2009, the most actively traded products have been VXX and VXZ, the largest long-only ETPs following short-term and medium-term VIX futures performance. However, relying on these "naive" VIX-based strategies has proven suboptimal for passive buy-and-hold investors.
+
+Similarly, VXX and VXZ follow the performance of S&P 500 VIX Short-Term FuturesTM Index Total Return (SPVXSTR) and S&P 500 VIX Mid-Term FuturesTM Index Total Return (SPVXMTR), respectively. SPVXSTR is created by daily shifting positions in first and second-month VIX futures for a 1-month average maturity. This rolling process generates a "roll yield," causing SPVXSTR to have different returns than VIX futures. In forwardation, when VIX futures are higher, SPVXSTR declines faster; in backwardation, when VIX futures are lower, it increases faster. Despite this, VXX and VIX maintain a high correlation of around 95% (Bao, Qunfang, et al., 2012).
+In conclusion, the literature emphasizes the importance of hedging for handling stock risks and the changing role of volatility indices. VXX is introduced to overcome VIX limitations but brings its own complexities. Investors need to consider these details for effective hedging in dynamic financial markets.
+
+
+
+
+
+Competitor Analysis
+
+Competitor Analysis: Volatility and Risk - Equities Hedge Through VXX
+ 
+The financial landscape has witnessed various crises, prompting the need for effective risk management strategies. The utilization of volatility indices, particularly the VIX, has become a key instrument for hedging against market uncertainties. As VIX derivatives gained prominence, alternative products like the VXX ETF emerged to address limitations and provide investors with opportunities for managing equity market volatility.
+Our competitor analysis is discussed based on competitors, market trends and demand, the regulatory environment, investor perception and feedback, and risk and return profiles:
+ 
+Competitors
+ 
+•       	Traditional Hedging Instruments
+Competitive Landscape: Traditional hedging instruments, including options, futures, and inverse ETFs, serve as direct competitors to VXX. They offer diverse strategies for managing equity risks.
+ 
+Strengths: Established and widely understood, these instruments provide flexibility in designing hedging strategies.
+ 
+ 
+Weaknesses: They are limited in their ability to capture market sentiments and volatility nuances compared to VXX.
+ 
+Threats: Increasing complexity in market dynamics may challenge the effectiveness of traditional instruments in adapting to rapid changes in volatility.
+ 
+ 
+Opportunities: Evolving market conditions might open avenues for innovation in traditional hedging instruments, enhancing their adaptability.
+ 
+•       	VIX Futures and Options
+Competitive Landscape: VIX futures and options constitute direct competitors to VXX, as they also derive from the CBOE volatility index.
+ 
+Strengths: Well-established and liquid markets with various trading strategies available.
+Weaknesses: Similar to VXX, direct exposure to VIX futures and options involves complexity and may require a sophisticated understanding of market dynamics.
+ 
+Threats: Increased competition and potential changes in market regulations may impact the accessibility and efficiency of VIX futures and options.
+ 
+ 
+Opportunities: Continuous advancements in financial derivatives and market structures could lead to the development of new and improved VIX-related products.
+ 
+•       	Other Volatility Products (Variance and Volatility Swaps)
+ 
+Competitive Landscape: Over-the-counter (OTC) volatility products, such as variance and volatility swaps, compete with VXX in providing alternative volatility exposure.
+ 
+Strengths: Customizable and tailored to specific risk preferences, offering a broader range of volatility strategies.
+ 
+ 
+Weaknesses: Lack of transparency and accessibility of exchange-traded products like VXX.
+ 
+Threats: OTC products may face regulatory challenges that affect their market presence and investor confidence.
+ 
+ 
+Opportunities: Increased demand for tailored risk management solutions might drive innovation in OTC volatility products.
+ 
+Market Trends and Demand
+Trend Analysis: The market has seen a growing demand for volatility-based products, indicating a heightened interest in managing equity risks.
+ 
+Demand for VXX: Despite the challenges and complexities, the demand for VXX and similar products highlights the appeal of exchange-traded instruments in the volatility space.
+ 
+Regulatory Environment
+ 
+Regulatory Challenges: Regulatory scrutiny may impact the issuance and trading of VXX and related products. Compliance with evolving regulations is crucial for ensuring investor protection and market integrity.
+ 
+Investor Perception and Feedback
+ 
+Investor Sentiment: Investor perceptions of VXX and its competitors are influenced by factors such as performance, liquidity, and ease of use.
+Feedback Channels: Monitoring financial news, forums, and investor feedback provides insights into the market sentiment surrounding VXX and its alternatives.
+ 
+Risk and Return Profiles
+ 
+Risk Assessment: Comparing the risk and return profiles of VXX with direct competitors helps investors make informed decisions based on their risk tolerance and investment objectives.
+ 
+Performance Metrics: Metrics such as tracking error, volatility, and correlation with underlying indices contribute to evaluating the effectiveness of VXX as a hedging tool.
+In conclusion, the competitive analysis reveals a dynamic landscape in which VXX competes with traditional instruments and other volatility products. While VXX offers unique advantages in accessibility and correlation to S&P 500 equities, investors must carefully consider its limitations, such as roll yields and credit risk, when evaluating its role in their portfolios. Understanding the broader market trends, regulatory dynamics, and investor sentiments is essential for navigating the complexities of the equities hedge through VXX. We are going to consider all this in our work to see how they compare with some of the works done in the literature.
+
+
+Codings on Repository GitHub
+https://github.com/raymondkl92/wqu_capstone_vxx
+Bibliography
+
+Alexander, C., & Korovilas, D. (n.d.). Understanding ETNs on VIX Futures. http://ssrn.com/abstract=2043061Tel:+44
+Bahaji, H., & Aberkane, S. (n.d.). How rational could VIX investing be? http://ssrn.com/abstract=2666169Electroniccopyavailableat:https://ssrn.com/abstract=2666169Electroniccopyavailableat:http://ssrn.com/abstract=2666169
+Bao, Qunfang & Li, Shenghong & Gong, Donggeng, 2012. "Pricing VXX option with default risk and positive volatility skew," European Journal of Operational Research, Elsevier, vol. 223(1), pages 246-255.
+Black and M. Scholes. The Pricing of Options and Corporate Liabilities. Journal of Political Economy, 81:637–654, 1973.
+Black, Keith, 2006, Improving hedge fund risk exposures by hedging equity market volatility, or how the VIX ate my kurtosis, Journal of Trading, Spring 6-15.
+Dash, Srikant, and Moran, Matthew T., 2005, VIX as a companion for hedge fund portfolios, Journal of Alternative Investments, Winter, 75-80.
+Deng, G., McCann, C., & Wang, O. (2012). Are VIX Futures ETPs Effective Hedges? The Journal of Index Investing, 3(3), 35–48. https://doi.org/10.3905/jii.2012.3.3.035
+DeLisle, Jared, Doran, James S. and Krieger, Kevin, 2010, Volatility as an Asset Class: Holding VIX in a Portfolio, Working Paper.
+Demeterfi, K., Derman, E., Kamal, M., & Zou, J. (1999). More than you ever wanted to know about volatility swaps. Goldman Sachs quantitative strategies research notes, 41, 1-56.
+J. Shu and J. E. Zhang. Causality on the VIX Futures Market. Journal of Futures Markets, 32/1:24–46, 2012.
+ Kozarski, R. (n.d.). Pricing and hedging in the VIX derivative market.
+Luo, F. (2011). VIX FUTURES AND THE HEDGING OF BOND PORTFOLIOS. http://ssrn.com/abstract=1980875
+Liu, Berlinda and Dash, Srikant, 2011, Volatility ETFs and ETNs Volatility, Journal of Trading, upcoming
+M. Brenner and D. Galai. New Financial Instrument for Hedging Changes in Volatility. Financial Analysts Journal, 4:61–65, 1989.
+Nasar, S. (1992). For Fed, a new set of tea leaves. New York Times, 5.
+R. E. Whaley. Derivatives on Market Volatility: Hedging Tools Long Overdue. The Journal of Derivatives, 1, 1993.
+ R. E. Whaley. Understanding VIX. Journal of Portfolio Management, 35/3:98–105, 2009.
+ R. T. Daigler and L. Rossi. A Portfolio of Stocks and Volatility. The Journal of Investing, pages 99–106, 2006.
+ Stanton, Clifford, 2011, Volatility as an Asset Class, Journal of Investment Consulting, 12, 23-30.
+T. G. Andersen, T. Bollerslev, and F.X. Diebold. Parametric and Nonparametric Volatility Measurement. Handbook of Financial Econometrics., pages 67–138, 2010.
+    
+
+
