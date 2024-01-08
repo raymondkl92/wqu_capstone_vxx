@@ -1,8 +1,8 @@
-# Capstone Project: Analyzing Hedging Relationship with VIX and VXX
+# Equities Hedge Through VXX
 
-## Overview
+## Project Overview
 
-This repository contains the code and documentation for the Capstone Project focusing on the analysis of the hedging relationship between S&P 500 equities, VIX (CBOE Volatility Index), and VXX (Exchange-Traded Fund).
+This repository contains the code and documentation for the Capstone Project, exploring the hedging relationship between S&P 500 equities and VXX (Exchange-Traded Fund).
 
 ## Project Structure
 
