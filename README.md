@@ -27,4 +27,4 @@ This repository contains the code and documentation for the Capstone Project, ex
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/raymondkl92/wqu_capstone_vxx.git
